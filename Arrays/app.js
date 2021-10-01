@@ -1,12 +1,12 @@
 //1) a) Solicitar al usuario que ingrese 5 nombres de frutas y almacenarlos en un array.
 
-// var s
+// var respuestaFrutas
 // var frutas = [
 // ]
 
 // for (i = 0; i < 5; i++) {
-//     s = prompt("Ingrese una fruta, owo")
-//     frutas.push(s)
+//     respuestaFrutas = prompt("Ingrese una fruta, owo")
+//     frutas.push(respuestaFrutas)
 // }
 
 // console.log(frutas)
@@ -71,7 +71,7 @@
 
 // console.log(ciudadesSinPrincipio)
 
-// 3) Crear un array de 8 posiciones con nombres de artistas musicales y mostrar POR SEPARADO:
+// 4) Crear un array de 8 posiciones con nombres de artistas musicales y mostrar POR SEPARADO:
 // ✨Su longitud
 // ✨El último elemento.
 // ✨Solo las posiciones pares
@@ -80,4 +80,17 @@
 // ✨Todos los elementos menos el primero
 // ✨todos los elementos separados por “*”.
 // ✨Solicitar al usuario un nuevo artista para reemplazar al último ingresado.
+
+const artistas = ["Demi Lovato", "Cerati", "Spinetta", "Charly", "Bad bunny", "L-egante", "Cardi B", "J Balvin"]
+const artistasPar = []
+
+console.log(artistas.length)
+console.log(artistas[7])
+for (let i = 0; i < artistas.length; i++) {
+    if (artistas[i] % 2 === 0) {
+        artistasPar += artistas[i]
+    }
+}
+
+console.log(artistasPar)
 
