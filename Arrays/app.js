@@ -82,15 +82,61 @@
 // ✨Solicitar al usuario un nuevo artista para reemplazar al último ingresado.
 
 const artistas = ["Demi Lovato", "Cerati", "Spinetta", "Charly", "Bad bunny", "L-egante", "Cardi B", "J Balvin"]
-const artistasPar = []
 
-console.log(artistas.length)
-console.log(artistas[7])
-for (let i = 0; i < artistas.length; i++) {
-    if (artistas[i] % 2 === 0) {
-        artistasPar += artistas[i]
-    }
-}
+// VARIABLES
 
-console.log(artistasPar)
+// let artistasPar = []
+// let artistasSinElUltimo=[]
+// let artistasSinElPrimero = []
+// let artistasAster= []
 
+// EJERCICIOS
+
+// ✨
+// console.log(artistas.length)
+
+// ✨
+// console.log(artistas[7])
+
+// ✨
+// for (let i = 0; i < artistas.length; i++) {
+//     if (i % 2 === 0) {
+//         artistasPar.push(artistas[i])
+//         console.log(artistasPar)
+//     }
+//     else if (i === 0) {
+//         console.log("el cero es impar?")
+//     }
+//     else {
+//         console.log("es impar")
+//     }
+// }
+
+// console.log(artistasPar)
+
+// ✨
+// console.log(artistas)
+
+
+// ✨
+// for (let i = 0; i < 7; i++) {
+//     artistasSinElUltimo.push(artistas[i])
+//     console.log(artistasSinElUltimo)
+    
+// }
+
+// console.log(artistasSinElUltimo)
+
+
+// ✨
+// for (let i = 1; i < 8; i++) {
+//     artistasAster.push(artistas[i])
+//     artistasAster.push("*")
+//     console.log(artistasAster)
+    
+// }
+
+// console.log(artistasAster)
+
+// BUSCANDO UN MÉTODO MÁS CORTO
+// console.log(artistas.replace("," ,"*"))
